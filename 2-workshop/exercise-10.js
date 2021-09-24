@@ -13,6 +13,23 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  // const triangle = ["#","##","###","####","#####","######","#######"];
+  // const variable = triangle.values();
+
+  // for(const value of variable) {
+  //       console.log(value)
+  // }
+
+  // const triangle = ["#","##","###","####","#####","######","#######"];
+  // triangle[1][7]
+
+  let triangle = "#"
+  for (let num = 1; num <= 7; num++ ) {
+  console.log(triangle)
+  triangle = triangle + "#"
+}
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -25,5 +42,5 @@ function exercise10() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-10
-
+exercise10();
 module.exports = exercise10;

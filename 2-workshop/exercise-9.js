@@ -28,6 +28,20 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for (let num = 1; num <= 100; num++) {
+    if (num >= 15 && num % 15 === 0) {
+      console.log("FizzBuzz") }
+      else if (num % 5 === 0) {
+        console.log("Buzz") }
+        else if (num %3 === 0) {
+          console.log("Fizz")
+        } 
+        else console.log(num)
+      }
+    
+  
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -40,5 +54,5 @@ function exercise9() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-9
-
+exercise9();
 module.exports = exercise9;

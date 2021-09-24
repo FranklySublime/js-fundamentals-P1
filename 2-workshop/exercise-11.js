@@ -15,6 +15,29 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  // const chessBoard = [
+  //   ["#_","#_","#_","#_"],
+  //   ["_#","_#","_#","_#"],
+  // ]
+
+  // console.log(chessBoard[0])
+  // console.log(chessBoard[1])
+
+  let blackRow = "#_#_#_#_"
+  let whiteRow = "_#_#_#_#"
+
+  for (i = 1; i <= 8; i++) {
+  if(i % 2 === 0) {
+    console.log(whiteRow) 
+  }
+    else console.log(blackRow)
+  }
+
+  // const variable = chessboard.values();
+  // for (const value of variable) {
+  //   console.log(value)
+  // }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -27,5 +50,5 @@ function exercise11() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-11
-
+exercise11();
 module.exports = exercise11;

@@ -6,6 +6,16 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+let currentNum = 36
+let min = -2
+
+while (currentNum > min) {
+  console.log(currentNum);
+  currentNum = currentNum - 2;
+}
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -18,5 +28,5 @@ function exercise6_4() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-6.4
-
+exercise6_4()
 module.exports = exercise6_4;

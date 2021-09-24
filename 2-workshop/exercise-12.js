@@ -16,10 +16,10 @@ function exercise12() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
 
-  for (let number = 1; number <=200; number++) {
-    if (num % 0)
-  }
-  
+  // for (let number = 1; number <=200; number++) {
+  //   if (num % 0)
+  // }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
