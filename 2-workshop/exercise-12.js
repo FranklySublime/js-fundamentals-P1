@@ -15,11 +15,17 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
-  // for (let number = 1; number <=200; number++) {
-  //   if (num % 0)
-  // }
-
+  // total = 0
+  for (let i = 2; i <= 4; i++) {
+    if (i <= 3) {
+      console.log(i);
+    } else if (i === 4) {
+      for (let number = 1; number <= 33; number++) {
+        console.log(6 * number - 1);
+        console.log(6 * number + 1);
+      }
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -32,5 +38,5 @@ function exercise12() {
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-12
-
+exercise12();
 module.exports = exercise12;
